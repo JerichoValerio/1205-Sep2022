@@ -4,8 +4,18 @@
 #include <iostream>
 using namespace std;
 
+#include "ArrayExample.h"
+#include "Quiz1.h"
+
 int main()
 {
+
+	BasicConditionals();
+
+	BasicArrayExample();
+	Week2Quiz1();
+	Week2Quiz1WithDouble();
+
 	// std is the standard library namespace
 	// :: is the scope resolution 
 	// << is a way of outputting data to the standard output 
@@ -19,7 +29,6 @@ int main()
 	// Boolean Type
 	bool b1 = true;
 	bool b2{ true };
-	bool b3;
 
 	// Character Type
 	char c = 'a';

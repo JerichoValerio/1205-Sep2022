@@ -140,7 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1205-Sep2022.cpp" />
+    <ClCompile Include="ArrayExample.cpp" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="Quiz1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayExample.h" />
+    <ClInclude Include="Quiz1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
