@@ -22,6 +22,9 @@
     <Filter Include="Source Files\Week2">
       <UniqueIdentifier>{e07e67e4-ae09-48d8-9949-a95c359cc7fd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Week1">
+      <UniqueIdentifier>{c64790e7-6b32-441c-9b8a-6e0b2245a13a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205-Sep2022.cpp">

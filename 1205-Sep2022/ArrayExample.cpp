@@ -12,6 +12,34 @@ void BasicArrayExample()
 	numbers[4] = 30;
 
 	int total = numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4];
+
+	if (numbers[0] == 0)
+	{
+		std::cout << " equal to zero\n";
+	}
+	else if (numbers[0] < 0)
+	{
+		std::cout << " less than zero\n";
+	}
+	else
+	{
+		std::cout << " greater than zero\n";
+	}
+
+	while (numbers[0] > 0 )
+	{
+		numbers[0]--;
+	}
+
+	do
+	{
+		numbers[1]--;
+	} while (numbers[1] > 0);
+
+	for (int i = 0; i < 10; ++i)
+	{
+		std::cout << "i=" << i << std::endl;
+	}
 }
 
 bool IsEven(int num)
@@ -22,8 +50,10 @@ bool IsEven(int num)
 	{
 		return true;
 	}
-
-	return false;
+	else
+	{
+		return false;
+	}
 }
 
 void BasicConditionals()
