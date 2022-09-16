@@ -142,7 +142,10 @@
     <ClCompile Include="1205-Sep2022.cpp" />
     <ClCompile Include="ArrayExample.cpp" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="Quiz1.cpp" />
+    <ClCompile Include="SwitchCase.cpp" />
+    <ClCompile Include="Week1Intro.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayExample.h" />

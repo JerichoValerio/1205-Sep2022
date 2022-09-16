@@ -1,5 +1,65 @@
 #include <iostream>
 
+void BasicPointers()
+{
+	int* ip;
+	int x = 123;
+	ip = &x;  // & address of is used here to get the address of x and put it in ip pointer
+
+	char* cp;
+	char c = 'a';
+	cp = &c; 
+
+	char* cp2 = nullptr; // initialize a pointer that does not point to any object
+
+	// this is called dereferencing a pointer e.g. *cp
+	char d = *cp; // set the char value at the address pointer is pointing to, to the var d
+
+	*cp = 'x'; // changing the value of pointed-to char
+
+}
+
+void SwapCopies(int x, int y)
+{
+	int temp;
+	temp = x;
+	x = y;
+	y = temp;
+}
+
+void Swap(int* px, int* py)
+{
+	int temp;
+	temp = *px;
+	*px = *py;
+	*py = temp;
+}
+
+void ArrayAccessByPointer()
+{
+	int arr[] = { 10, 20, 30, 40, 40 };
+
+	std::cout << "arr[1]=" << arr[1] << "\n";
+
+	int* pi;
+	pi = &arr[0];
+
+
+	std::cout << "value at pi+1= " << *(pi + 1) << std::endl;
+
+	
+}
+
+// A function that uses a pointer to initialize an array of size n
+void InitializeArray(int* p, int n)
+{
+	while (n-- > 0)
+	{
+		*p = 0;	// assign 0 to the element pointed to
+		++p;	// point to the next element 
+	}
+}
+
 void BasicArrayExample()
 {
 	char arr[5];	// declared char array of size 5
@@ -42,6 +102,8 @@ void BasicArrayExample()
 	}
 }
 
+
+
 bool IsEven(int num)
 {
 	int remainder = num % 2;
@@ -66,3 +128,12 @@ void BasicConditionals()
 
 	std::cout << " isNum1Even: " << isNum1Even << " isNum2Even: " << isNum2Even << std::endl;
 }
+
+void TestGetArraySize()
+{
+	int arr[] = { 1,2,3,4,5 };
+	int len1 = sizeof(arr) / sizeof(arr[0]);
+
+	std::cout << "len: " << len1;
+}
+

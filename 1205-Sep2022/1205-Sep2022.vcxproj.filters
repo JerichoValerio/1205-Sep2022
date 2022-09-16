@@ -39,6 +39,15 @@
     <ClCompile Include="ArrayExample.cpp">
       <Filter>Source Files\Week2</Filter>
     </ClCompile>
+    <ClCompile Include="SwitchCase.cpp">
+      <Filter>Source Files\Week2</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers.cpp">
+      <Filter>Source Files\Week2</Filter>
+    </ClCompile>
+    <ClCompile Include="Week1Intro.cpp">
+      <Filter>Source Files\Week1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Quiz1.h">
