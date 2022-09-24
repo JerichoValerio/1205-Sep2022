@@ -38,16 +38,18 @@ void Swap(int* px, int* py)
 void ArrayAccessByPointer()
 {
 	int arr[] = { 10, 20, 30, 40, 40 };
+	// the value at arr is address of first element, e.g. 0x00eff72c 
 
 	std::cout << "arr[1]=" << arr[1] << "\n";
-
-	int* pi;
-	pi = &arr[0];
-
-
-	std::cout << "value at pi+1= " << *(pi + 1) << std::endl;
-
 	
+	int* pi;      // declare an integer pointer 
+	pi = &arr[0]; // & is the address of operator 
+	// now the value at pi is also the address of the first element of array arr e.g. 0x00eff72c
+
+	// arr[0]
+	std::cout << "value at pi+0 a.k.s. arr[0] = " << *pi << std::endl;
+	// arr[1]
+	std::cout << "value at pi+1 a.k.s. arr[1] = " << *(pi + 1) << std::endl;
 }
 
 // A function that uses a pointer to initialize an array of size n

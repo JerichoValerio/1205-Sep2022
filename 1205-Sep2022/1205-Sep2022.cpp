@@ -21,11 +21,13 @@ int main()
 
 	ArrayAccessByPointer();
 
-	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
-	
+	int arr[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 	InitializeArray(arr, 10);
 
+	int* newPtr = &arr[0];
+	InitializeArray(newPtr, 10);
 
+	bool arr2[3] = {};
 
 	// BasicConditionals();
 	// BasicArrayExample();
