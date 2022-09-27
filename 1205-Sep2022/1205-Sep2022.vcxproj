@@ -86,8 +86,11 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <UndefineAllPreprocessorDefinitions>false</UndefineAllPreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,17 +142,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1205-Sep2022.cpp" />
+    <ClCompile Include="main-Sep2022.cpp" />
     <ClCompile Include="ArrayExample.cpp" />
     <ClCompile Include="main.c" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="Quiz1.cpp" />
+    <ClCompile Include="Quiz4.cpp" />
     <ClCompile Include="SwitchCase.cpp" />
     <ClCompile Include="Week1Intro.cpp" />
+    <ClCompile Include="StringExamples.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ArrayExample.h" />
-    <ClInclude Include="Quiz1.h" />
+    <ClInclude Include="Examples.h" />
+    <ClInclude Include="Quizes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -9,3 +9,5 @@ bool IsEven(int num);
 void TestGetArraySize();
 void ArrayAccessByPointer();
 void InitializeArray(int* p, int n);
+
+void TestCString();

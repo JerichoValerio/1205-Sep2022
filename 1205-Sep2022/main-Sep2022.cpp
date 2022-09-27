@@ -4,12 +4,22 @@
 #include <iostream>
 using namespace std;
 
-#include "ArrayExample.h"
-#include "Quiz1.h"
+#include "Examples.h"
+#include "Quizes.h"
 #include <cstdlib>
+
+void TestQuiz4()
+{
+	bool arr[3] = { false, false, true };
+	InitializeArray(&arr[0], 3, true);
+}
 
 int main()
 {
+	TestCString();
+
+	TestQuiz4();
+
 	int x = 10;
 	int y = 20;
 	std::cout << "x=" << x << " y=" << y << std::endl;
@@ -36,3 +46,5 @@ int main()
 
 	return 0;
 } 
+
+

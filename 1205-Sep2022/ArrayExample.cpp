@@ -62,6 +62,15 @@ void InitializeArray(int* p, int n)
 	}
 }
 
+// A function that uses a pointer to initialize an array of size n
+void InitializeArray2(int* p, int n)
+{
+	while (n-- > 0)
+	{
+		*p++ = 0;	// assign 0 and then point to the next element 
+	}
+}
+
 void BasicArrayExample()
 {
 	char arr[5];	// declared char array of size 5
