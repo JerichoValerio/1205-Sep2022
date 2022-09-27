@@ -48,5 +48,4 @@ void TestCString()
 	{
 		std::cout << s2[i];
 	}
-
 }
