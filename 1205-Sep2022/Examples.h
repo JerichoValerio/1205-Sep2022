@@ -11,3 +11,6 @@ void ArrayAccessByPointer();
 void InitializeArray(int* p, int n);
 
 void TestCString();
+void TestStrtok();
+void TestTypeConversion();
+void TestStringType();

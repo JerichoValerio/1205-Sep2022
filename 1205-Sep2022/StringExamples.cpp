@@ -1,9 +1,12 @@
 
 #include <iostream>
 #include <cstring>
+#include <string>
 
 #define STRMAX 80
 #define NAMEMAX 50
+
+using namespace std;
 
 void TestCString()
 {
@@ -15,7 +18,7 @@ void TestCString()
 		std::cout << "the first letter of the string s3 is 'A'." << std::endl;
 	}
 
-	//if (s3[0] == "A") // WRONG! - attempts to compare one element of array s3 with an address expression for "A"
+	//if (s3[0] == "A") // This is WRONG! - it attempts to compare one element of array s3 with an address expression for "A"
 	//{
 
 	//}
@@ -47,5 +50,111 @@ void TestCString()
 	for (int i = 0; i < length; i++)
 	{
 		std::cout << s2[i];
+	}
+}
+
+void TestStrtok()
+{
+	// lets assume we have a string "This is a string input"
+	// and we want to break it up into individual substrings
+	/*
+	This 
+	is 
+	a
+	string 
+	input
+	*/
+
+	// strtok - string token
+	// 
+
+	char s[] = "This is a string input";
+	
+	char* strp1 = NULL; // old C style null pointer assignment
+	char* strp2 = nullptr; // the new null pointer assignment
+
+	char* ps = strtok(s, " ");
+	ps = strtok(nullptr, " ");
+
+
+	char string_to_parse[81];
+	std::cout << "input a string delimited with comma space to be parsed:";
+	std::cin.getline(string_to_parse, 81);
+
+	char* result = strtok(string_to_parse, "-");
+	while (result != nullptr)
+	{
+		std::cout << "token: " << result << std::endl;
+		result = strtok(nullptr, "-");
+	}
+}
+
+
+void TestTypeConversion()
+{
+	int i = 12;
+	float f = 2.2;
+	int j = f;
+
+	float f2 = i;
+
+	auto i2 = 0; // 
+	auto s = 'A';
+	auto s2 = "A";
+	auto b1 = true;
+	auto num = 6L;
+	auto num2 = 2'000'000'000;
+	auto binNum = 0b11101110;
+	auto hexNum = 0xFE;
+}
+
+void TestStringType()
+{
+	string firstName("Tom");
+	string lastName("Brady");
+
+	string fullName = firstName + " " + lastName;
+	cout << fullName << endl;
+	cout << "print the 4th char of fullname:" << fullName[3] << endl;
+
+	if (fullName != firstName)
+	{
+		cout << "not equal" << endl;
+	}
+	else
+	{
+		cout << "equal" << endl;
+	}
+
+	string dogType = "enter a dog type:";
+	string dog;
+	cout << dogType;
+	cin >> dog;
+	cout << endl << dog << endl; // captures up to the first blank characters into the string object
+
+	cout << "max" << numeric_limits<streamsize>::max() << endl;
+	cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+
+	string name, address;
+	cout << "Please enter your name:";
+	getline(cin, name);
+	cout << "Please enter your address:";
+	getline(cin, address);
+
+	cout << endl << name << endl << address << endl;
+
+	string result = "Name: " + name + " Address: " + address;
+
+	// convert a string to an integer
+	string age = "34";
+	auto ageNum = stoi(age);
+	cout << "age: " << age << "ageNum: " << ageNum << endl;
+
+	// convert a string to a floating point stof()
+
+	for (int i = 0; dog.size(); ++i)
+	{
+		cout << dog[i] << endl;
 	}
 }

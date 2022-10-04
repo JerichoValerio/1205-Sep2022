@@ -16,28 +16,32 @@ void TestQuiz4()
 
 int main()
 {
-	TestCString();
+	TestStringType();
+	// TestTypeConversion();
+	// TestStrtok();
 
-	TestQuiz4();
+	//TestCString();
 
-	int x = 10;
-	int y = 20;
-	std::cout << "x=" << x << " y=" << y << std::endl;
-	SwapCopies(x, y);
-	std::cout << "x=" << x << " y=" << y << std::endl;
+	//TestQuiz4();
 
-	Swap(&x, &y);
-	std::cout << "x=" << x << " y=" << y << std::endl;
+	//int x = 10;
+	//int y = 20;
+	//std::cout << "x=" << x << " y=" << y << std::endl;
+	//SwapCopies(x, y);
+	//std::cout << "x=" << x << " y=" << y << std::endl;
 
-	ArrayAccessByPointer();
+	//Swap(&x, &y);
+	//std::cout << "x=" << x << " y=" << y << std::endl;
 
-	int arr[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-	InitializeArray(arr, 10);
+	//ArrayAccessByPointer();
 
-	int* newPtr = &arr[0];
-	InitializeArray(newPtr, 10);
+	//int arr[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	//InitializeArray(arr, 10);
 
-	bool arr2[3] = {};
+	//int* newPtr = &arr[0];
+	//InitializeArray(newPtr, 10);
+
+	//bool arr2[3] = {};
 
 	// BasicConditionals();
 	// BasicArrayExample();
