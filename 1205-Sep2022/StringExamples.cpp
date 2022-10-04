@@ -132,9 +132,9 @@ void TestStringType()
 	cin >> dog;
 	cout << endl << dog << endl; // captures up to the first blank characters into the string object
 
-	cout << "max" << numeric_limits<streamsize>::max() << endl;
-	cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
+	cout << "streamsize max - a very large numer: " << numeric_limits<streamsize>::max() << endl;
+	cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
 	string name, address;
 	cout << "Please enter your name:";
