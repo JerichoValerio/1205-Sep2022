@@ -132,6 +132,10 @@ void TestStringType()
 	cin >> dog;
 	cout << endl << dog << endl; // captures up to the first blank characters into the string object
 
+	for (int i = 0; i < dog.size(); ++i)
+	{
+		cout << dog[i] << endl;
+	}
 
 	cout << "streamsize max - a very large numer: " << numeric_limits<streamsize>::max() << endl;
 	cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -151,10 +155,5 @@ void TestStringType()
 	auto ageNum = stoi(age);
 	cout << "age: " << age << "ageNum: " << ageNum << endl;
 
-	// convert a string to a floating point stof()
-
-	for (int i = 0; dog.size(); ++i)
-	{
-		cout << dog[i] << endl;
-	}
+	// to convert a string to a floating point you can use stof()
 }
