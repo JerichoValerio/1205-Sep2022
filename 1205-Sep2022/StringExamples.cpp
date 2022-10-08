@@ -12,7 +12,7 @@ void TestCString()
 {
 
 	// ===
-	char s3[] = "A";  
+	char s3[] = "A";
 	if (s3[0] == 'A')
 	{
 		std::cout << "the first letter of the string s3 is 'A'." << std::endl;
@@ -23,13 +23,13 @@ void TestCString()
 
 	//}
 
-	// C-string 
+	// C-string
 	char str[] = "Hello!";
 	char str2[10] = "Hello!";
 
 	char s[80];
 	strcpy(s, "One "); // string copy
-	strcat(s, "Two "); // string concatenation 
+	strcat(s, "Two "); // string concatenation
 	strcat(s, "Three ");
 
 	char s2[80];
@@ -37,7 +37,7 @@ void TestCString()
 	strncat(s2, s, STRMAX - strlen(s));
 
 	std::cout << s << std::endl;
-	std::cout << s2 << std::endl; 
+	std::cout << s2 << std::endl;
 
 	char name[50];
 	std::cout << "enter your name:";
@@ -58,18 +58,18 @@ void TestStrtok()
 	// lets assume we have a string "This is a string input"
 	// and we want to break it up into individual substrings
 	/*
-	This 
-	is 
+	This
+	is
 	a
-	string 
+	string
 	input
 	*/
 
 	// strtok - string token
-	// 
+	//
 
 	char s[] = "This is a string input";
-	
+
 	char* strp1 = NULL; // old C style null pointer assignment
 	char* strp2 = nullptr; // the new null pointer assignment
 
@@ -98,7 +98,7 @@ void TestTypeConversion()
 
 	float f2 = i;
 
-	auto i2 = 0; // 
+	auto i2 = 0; //
 	auto s = 'A';
 	auto s2 = "A";
 	auto b1 = true;

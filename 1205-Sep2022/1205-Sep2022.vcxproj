@@ -119,6 +119,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,12 +143,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BitwiseOperators.cpp" />
+    <ClCompile Include="ExploreCasting.cpp" />
+    <ClCompile Include="ExploreEnum.cpp" />
     <ClCompile Include="main-Sep2022.cpp" />
     <ClCompile Include="ArrayExample.cpp" />
     <ClCompile Include="main.c" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="Quiz1.cpp" />
     <ClCompile Include="Quiz4.cpp" />
+    <ClCompile Include="RandomNumbers.cpp" />
     <ClCompile Include="SwitchCase.cpp" />
     <ClCompile Include="Week1Intro.cpp" />
     <ClCompile Include="StringExamples.cpp" />

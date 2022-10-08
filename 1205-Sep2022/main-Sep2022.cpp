@@ -16,7 +16,13 @@ void TestQuiz4()
 
 int main()
 {
-	TestStringType();
+	ExploreBitwiseBasics();
+	// ExamineBasicRandomNumbers();
+
+	// TestStaticCast();
+	// TestColorEnum();
+
+	// TestStringType();
 	// TestTypeConversion();
 	// TestStrtok();
 
@@ -49,6 +55,6 @@ int main()
 	// Week2Quiz1WithDouble();
 
 	return 0;
-} 
+}
 
 

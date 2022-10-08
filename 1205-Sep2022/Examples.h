@@ -14,3 +14,8 @@ void TestCString();
 void TestStrtok();
 void TestTypeConversion();
 void TestStringType();
+
+void TestStaticCast();
+void TestColorEnum();
+void ExamineBasicRandomNumbers();
+void ExploreBitwiseBasics();

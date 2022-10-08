@@ -16,17 +16,17 @@
     <Filter Include="Libraries">
       <UniqueIdentifier>{1a54c7ce-a691-47b5-9f15-bdf61ce86b14}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Week2">
-      <UniqueIdentifier>{e07e67e4-ae09-48d8-9949-a95c359cc7fd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Week1">
-      <UniqueIdentifier>{c64790e7-6b32-441c-9b8a-6e0b2245a13a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Quizes">
       <UniqueIdentifier>{c733ad7b-7540-4183-a4a9-430436777104}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Week3">
+    <Filter Include="Source Files\UDTypesAndCasting">
       <UniqueIdentifier>{d89dbc7c-24da-4d56-83a2-5f24e819c7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FundamentalTypes">
+      <UniqueIdentifier>{e07e67e4-ae09-48d8-9949-a95c359cc7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LanguageBasics">
+      <UniqueIdentifier>{c64790e7-6b32-441c-9b8a-6e0b2245a13a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -40,22 +40,34 @@
       <Filter>Source Files\Quizes</Filter>
     </ClCompile>
     <ClCompile Include="ArrayExample.cpp">
-      <Filter>Source Files\Week2</Filter>
+      <Filter>Source Files\FundamentalTypes</Filter>
     </ClCompile>
     <ClCompile Include="SwitchCase.cpp">
-      <Filter>Source Files\Week2</Filter>
+      <Filter>Source Files\FundamentalTypes</Filter>
     </ClCompile>
     <ClCompile Include="Pointers.cpp">
-      <Filter>Source Files\Week2</Filter>
+      <Filter>Source Files\FundamentalTypes</Filter>
     </ClCompile>
     <ClCompile Include="Week1Intro.cpp">
-      <Filter>Source Files\Week1</Filter>
+      <Filter>Source Files\LanguageBasics</Filter>
     </ClCompile>
     <ClCompile Include="Quiz4.cpp">
       <Filter>Source Files\Quizes</Filter>
     </ClCompile>
     <ClCompile Include="StringExamples.cpp">
-      <Filter>Source Files\Week3</Filter>
+      <Filter>Source Files\UDTypesAndCasting</Filter>
+    </ClCompile>
+    <ClCompile Include="ExploreEnum.cpp">
+      <Filter>Source Files\UDTypesAndCasting</Filter>
+    </ClCompile>
+    <ClCompile Include="ExploreCasting.cpp">
+      <Filter>Source Files\UDTypesAndCasting</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNumbers.cpp">
+      <Filter>Source Files\UDTypesAndCasting</Filter>
+    </ClCompile>
+    <ClCompile Include="BitwiseOperators.cpp">
+      <Filter>Source Files\LanguageBasics</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
