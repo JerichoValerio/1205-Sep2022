@@ -19,3 +19,7 @@ void TestStaticCast();
 void TestColorEnum();
 void ExamineBasicRandomNumbers();
 void ExploreBitwiseBasics();
+
+void FileStreamTest1();
+void FileStreamTest2();
+void DisplayFile();

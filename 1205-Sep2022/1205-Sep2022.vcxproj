@@ -149,6 +149,7 @@
     <ClCompile Include="main-Sep2022.cpp" />
     <ClCompile Include="ArrayExample.cpp" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="MyProjectA\filestreamex1.cpp" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="Quiz1.cpp" />
     <ClCompile Include="Quiz4.cpp" />

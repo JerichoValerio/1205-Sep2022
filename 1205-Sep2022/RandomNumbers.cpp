@@ -11,4 +11,7 @@ void ExamineBasicRandomNumbers()
 	unsigned int number = rand() % 100; // divide by 100 and get the remainder
 
 	cout << "random number was:  " << number << endl;
+
+	int const file = 100;
+
 }

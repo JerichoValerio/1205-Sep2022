@@ -28,6 +28,12 @@
     <Filter Include="Source Files\LanguageBasics">
       <UniqueIdentifier>{c64790e7-6b32-441c-9b8a-6e0b2245a13a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MyProjectA">
+      <UniqueIdentifier>{b12e78e1-e6c4-4613-9c8d-61d8fe42b05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filestream">
+      <UniqueIdentifier>{15befe77-56c0-4b21-aca7-5aa61ce483a1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main-Sep2022.cpp">
@@ -68,6 +74,9 @@
     </ClCompile>
     <ClCompile Include="BitwiseOperators.cpp">
       <Filter>Source Files\LanguageBasics</Filter>
+    </ClCompile>
+    <ClCompile Include="MyProjectA\filestreamex1.cpp">
+      <Filter>Source Files\filestream</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

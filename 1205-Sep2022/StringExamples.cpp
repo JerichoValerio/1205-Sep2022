@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include <fstream>
 #include <cstring>
 #include <string>
 
@@ -10,7 +11,6 @@ using namespace std;
 
 void TestCString()
 {
-
 	// ===
 	char s3[] = "A";
 	if (s3[0] == 'A')
@@ -30,7 +30,7 @@ void TestCString()
 	char s[80];
 	strcpy(s, "One "); // string copy
 	strcat(s, "Two "); // string concatenation
-	strcat(s, "Three ");
+	strcat(s, "Three "); // resulting string: "One Two Three "
 
 	char s2[80];
 	strncpy(s2, str2, STRMAX);
@@ -51,6 +51,13 @@ void TestCString()
 	{
 		std::cout << s2[i];
 	}
+
+	// C++ string 
+	string string1("aaa ");
+	string string2("bbb ");
+	string1 += string2;
+
+	cout << string1 << endl;
 }
 
 void TestStrtok()
@@ -88,7 +95,6 @@ void TestStrtok()
 		result = strtok(nullptr, "-");
 	}
 }
-
 
 void TestTypeConversion()
 {
@@ -138,6 +144,7 @@ void TestStringType()
 	}
 
 	cout << "streamsize max - a very large numer: " << numeric_limits<streamsize>::max() << endl;
+	// // this line clears the input stream of any characters that are still left in it.
 	cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
 	string name, address;
@@ -157,3 +164,4 @@ void TestStringType()
 
 	// to convert a string to a floating point you can use stof()
 }
+

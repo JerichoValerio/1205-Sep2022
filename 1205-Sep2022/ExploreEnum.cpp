@@ -45,6 +45,4 @@ void TestColorEnum()
 	{
 		cout << "currentBasicColor is RED" << endl;
 	}
-
-
 }

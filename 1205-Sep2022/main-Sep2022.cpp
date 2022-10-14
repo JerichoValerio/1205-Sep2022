@@ -16,7 +16,13 @@ void TestQuiz4()
 
 int main()
 {
-	ExploreBitwiseBasics();
+	// streams: stream is something which you can read data from or write data to.
+	// FileStreamTest1();
+	// FileStreamTest1();
+	DisplayFile();
+
+
+	// ExploreBitwiseBasics();
 	// ExamineBasicRandomNumbers();
 
 	// TestStaticCast();
