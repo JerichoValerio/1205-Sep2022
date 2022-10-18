@@ -144,8 +144,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BitwiseOperators.cpp" />
+    <ClCompile Include="ExamineObjects.cpp" />
     <ClCompile Include="ExploreCasting.cpp" />
     <ClCompile Include="ExploreEnum.cpp" />
+    <ClCompile Include="Fraction.cpp" />
+    <ClCompile Include="Fraction.h" />
     <ClCompile Include="main-Sep2022.cpp" />
     <ClCompile Include="ArrayExample.cpp" />
     <ClCompile Include="main.c" />

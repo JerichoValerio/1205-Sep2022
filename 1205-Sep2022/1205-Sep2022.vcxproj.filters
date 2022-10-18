@@ -87,6 +87,15 @@
     <ClCompile Include="Point.cpp">
       <Filter>Source Files\ClassesAndObjects</Filter>
     </ClCompile>
+    <ClCompile Include="ExamineObjects.cpp">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Fraction.h">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Fraction.cpp">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Examples.h">

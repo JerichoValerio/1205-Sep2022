@@ -23,3 +23,5 @@ void ExploreBitwiseBasics();
 void FileStreamTest1();
 void FileStreamTest2();
 void DisplayFile();
+
+void TestPointObject();
