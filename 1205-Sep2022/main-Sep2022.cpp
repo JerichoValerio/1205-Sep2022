@@ -6,6 +6,7 @@ using namespace std;
 
 #include "Examples.h"
 #include "Quizes.h"
+#include "Point.h"
 #include <cstdlib>
 
 void TestQuiz4()
@@ -16,10 +17,17 @@ void TestQuiz4()
 
 int main()
 {
+	Point p1, p2;
+
+	p1.Set(5, 7);
+	p2.Set(0, 10);
+
+	cout << "p1: " << p1.GetX() << ", " << p1.GetY() << endl;
+	cout << "p2: " << p2.GetX() << ", " << p2.GetY() << endl;
 	// streams: stream is something which you can read data from or write data to.
 	// FileStreamTest1();
 	// FileStreamTest1();
-	DisplayFile();
+	// DisplayFile();
 
 
 	// ExploreBitwiseBasics();

@@ -150,6 +150,8 @@
     <ClCompile Include="ArrayExample.cpp" />
     <ClCompile Include="main.c" />
     <ClCompile Include="MyProjectA\filestreamex1.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Point.h" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="Quiz1.cpp" />
     <ClCompile Include="Quiz4.cpp" />

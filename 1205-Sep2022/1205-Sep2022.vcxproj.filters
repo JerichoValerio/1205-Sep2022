@@ -34,6 +34,9 @@
     <Filter Include="Source Files\filestream">
       <UniqueIdentifier>{15befe77-56c0-4b21-aca7-5aa61ce483a1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ClassesAndObjects">
+      <UniqueIdentifier>{add66fce-6743-4443-a487-fb5314de52a6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main-Sep2022.cpp">
@@ -77,6 +80,12 @@
     </ClCompile>
     <ClCompile Include="MyProjectA\filestreamex1.cpp">
       <Filter>Source Files\filestream</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.h">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\ClassesAndObjects</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
