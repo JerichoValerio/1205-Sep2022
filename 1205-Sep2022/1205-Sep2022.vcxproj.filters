@@ -96,6 +96,9 @@
     <ClCompile Include="Fraction.cpp">
       <Filter>Source Files\ClassesAndObjects</Filter>
     </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Examples.h">
@@ -104,5 +107,11 @@
     <ClInclude Include="Quizes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
