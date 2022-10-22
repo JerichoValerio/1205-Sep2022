@@ -19,8 +19,8 @@ int main()
 	// TestPointObject();
 
 	// streams: stream is something which you can read data from or write data to.
-	// FileStreamTest1();
-	// FileStreamTest1();
+	 FileStreamTest1();
+	// FileStreamTest2();
 	// DisplayFile();
 
 	// ExploreBitwiseBasics();
@@ -37,15 +37,15 @@ int main()
 
 	//TestQuiz4();
 
-	int x = 10;
-	int y = 20;
-	std::cout << "Before SwapCopies:" << "x=" << x << " y=" << y << std::endl;
-	SwapCopies(x, y);
-	std::cout << "After SwapCopies:" << "x=" << x << " y=" << y << std::endl;
+	//int x = 10;
+	//int y = 20;
+	//std::cout << "Before SwapCopies:" << "x=" << x << " y=" << y << std::endl;
+	//SwapCopies(x, y);
+	//std::cout << "After SwapCopies:" << "x=" << x << " y=" << y << std::endl;
 
-	std::cout << "Before Swap: " << "x=" << x << " y=" << y << std::endl;
-	Swap(&x, &y);
-	std::cout << "After Swap: " << "x=" << x << " y=" << y << std::endl;
+	//std::cout << "Before Swap: " << "x=" << x << " y=" << y << std::endl;
+	//Swap(&x, &y);
+	//std::cout << "After Swap: " << "x=" << x << " y=" << y << std::endl;
 
 	//ArrayAccessByPointer();
 

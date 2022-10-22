@@ -9,18 +9,18 @@ using namespace std;
 void FileStreamTest1()
 {
 	// ofstream: file output stream
-	ofstream fout1("C:\\Users\\gkarim\\source\\repos\\1205-Sep2022\\1205-Sep2022\\TextFiles\\output1.txt");
+	ofstream fout1("TextFiles\\output4.txt");
 
-	fout1 << "Output1: this is the first line.." << endl;
-	fout1 << "O1: and this is the 2nd line.." << endl;
+	fout1 << "Output1: my test in 1-1 ---- this is the first line.." << endl;
+	fout1 << "O1: test in 1-2--- and this is the 2nd line.." << endl;
 
 	fout1.close();
 	// ifstream: file input stream
 
-	ofstream fout2("C:/Users/gkarim/source/repos/1205-Sep2022/1205-Sep2022/TextFiles/output3.txt");
+	ofstream fout2("TextFiles/output5.txt");
 
-	fout2 << "O2: this is the first line.." << endl;
-	fout2 << "O2: and this is the 2nd line.." << endl;
+	fout2 << "O2: test on 3 -1- this is the first line.." << endl;
+	fout2 << "O2: test on 3 -2- and this is the 2nd line.." << endl;
 
 	fout2.close();
 }
