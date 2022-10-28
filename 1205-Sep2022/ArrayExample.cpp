@@ -113,8 +113,6 @@ void BasicArrayExample()
 	}
 }
 
-
-
 bool IsEven(int num)
 {
 	int remainder = num % 2;

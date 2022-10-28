@@ -19,8 +19,8 @@ void FileStreamTest1()
 
 	ofstream fout2("TextFiles/output5.txt");
 
-	fout2 << "O2: test on 3 -1- this is the first line.." << endl;
-	fout2 << "O2: test on 3 -2- and this is the 2nd line.." << endl;
+	fout2 << "i: test on 3 -1- this is the first line.." << std::endl;
+	fout2 << "i: test on 3 -2- and this is the 2nd line.." << endl;
 
 	fout2.close();
 }

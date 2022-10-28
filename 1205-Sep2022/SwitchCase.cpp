@@ -58,3 +58,30 @@ void BasicSwitchCase()
 		std::cout << "Char c is a not a vowel";
 	}
 }
+
+bool Check(char* cp)
+{
+	switch (*cp)
+	{
+		case 'a':
+		case 'e':
+		case 'i':
+		case 'o':
+		case 'u':
+			return true;
+			break;
+		default:
+			return false;
+	}
+}
+
+int Func2(char* cp, int size)
+{
+	int c = 0;
+	while (size-- > 0)
+	{
+		if (Check(cp++)) c++;
+	}
+
+	return c;
+}

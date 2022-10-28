@@ -4,7 +4,7 @@ using namespace std;
 void TestStaticCast()
 {
 	// int by default is signed
-	int largeNumber = 1000; // 0x000003e8
+	int largeNumber = 257; // 0x000003e8
 	unsigned int largeNumber2 = 20000000;
 
 	// char by default is signed
@@ -14,5 +14,6 @@ void TestStaticCast()
 	// smallNumber	0xe8 'è'	char
 	// smallNumber2	0xe8 'è'	unsigned char
 
-	char smallNumber3 = static_cast<char>(largeNumber);
+	signed char c1 = static_cast<char>(largeNumber);
+	unsigned char c2 = static_cast<char>(largeNumber);
 }

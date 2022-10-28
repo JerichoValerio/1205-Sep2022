@@ -16,10 +16,11 @@ void TestQuiz4()
 
 int main()
 {
+	
 	// TestPointObject();
 
 	// streams: stream is something which you can read data from or write data to.
-	 FileStreamTest1();
+	FileStreamTest1();
 	// FileStreamTest2();
 	// DisplayFile();
 
@@ -49,8 +50,13 @@ int main()
 
 	//ArrayAccessByPointer();
 
-	//int arr[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	// int arr[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	// InitializeArray2(arr, 10);
 	//InitializeArray(arr, 10);
+
+	//char letters[8] = { 's', 'd', 'a', 'e', 't', 'y', 'g', 'i'};
+	//int c = Func2(letters, 8);
+	//std::cout << "c = " << c;
 
 	//int* newPtr = &arr[0];
 	//InitializeArray(newPtr, 10);
