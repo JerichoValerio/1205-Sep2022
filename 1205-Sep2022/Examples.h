@@ -25,3 +25,5 @@ void FileStreamTest2();
 void DisplayFile();
 
 void TestPointObject();
+void TestSTLObjects();
+void TestNode();

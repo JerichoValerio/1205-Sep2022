@@ -33,3 +33,8 @@ void Point::Set(int x, int y)
 	this->y = y;
 }
 
+void Point::AddX(Point& src)
+{
+	x = x + src.x;
+}
+

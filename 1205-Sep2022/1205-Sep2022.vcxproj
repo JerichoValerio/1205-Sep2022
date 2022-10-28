@@ -143,6 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="3DPoint.cpp" />
     <ClCompile Include="BitwiseOperators.cpp" />
     <ClCompile Include="ExamineObjects.cpp" />
     <ClCompile Include="ExploreCasting.cpp" />
@@ -153,6 +154,9 @@
     <ClCompile Include="ArrayExample.cpp" />
     <ClCompile Include="main.c" />
     <ClCompile Include="MyProjectA\filestreamex1.cpp" />
+    <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="PhoneNumber.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="Point.h" />
     <ClCompile Include="Pointers.cpp" />
@@ -164,7 +168,12 @@
     <ClCompile Include="StringExamples.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="3DPoin.h" />
+    <ClInclude Include="Address.h" />
     <ClInclude Include="Examples.h" />
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="PhoneNumber.h" />
     <ClInclude Include="Quizes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

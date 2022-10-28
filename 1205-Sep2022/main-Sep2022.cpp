@@ -16,7 +16,9 @@ void TestQuiz4()
 
 int main()
 {
-	TestPointObject();
+	TestNode();
+	// TestSTLObjects();
+	// TestPointObject();
 
 	// streams: stream is something which you can read data from or write data to.
 	// FileStreamTest1();

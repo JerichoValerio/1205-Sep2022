@@ -96,6 +96,18 @@
     <ClCompile Include="Fraction.cpp">
       <Filter>Source Files\ClassesAndObjects</Filter>
     </ClCompile>
+    <ClCompile Include="3DPoint.cpp">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneNumber.cpp">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Examples.h">
@@ -103,6 +115,21 @@
     </ClInclude>
     <ClInclude Include="Quizes.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3DPoin.h">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.h">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneNumber.h">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Source Files\ClassesAndObjects</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
