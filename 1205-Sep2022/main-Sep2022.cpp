@@ -22,7 +22,7 @@ int main()
 
 	// streams: stream is something which you can read data from or write data to.
 	// FileStreamTest1();
-	// FileStreamTest1();
+	// FileStreamTest2();
 	// DisplayFile();
 
 	// ExploreBitwiseBasics();
@@ -41,17 +41,23 @@ int main()
 
 	//int x = 10;
 	//int y = 20;
-	////std::cout << "x=" << x << " y=" << y << std::endl;
-	////SwapCopies(x, y);
-	////std::cout << "x=" << x << " y=" << y << std::endl;
+	//std::cout << "Before SwapCopies:" << "x=" << x << " y=" << y << std::endl;
+	//SwapCopies(x, y);
+	//std::cout << "After SwapCopies:" << "x=" << x << " y=" << y << std::endl;
 
+	//std::cout << "Before Swap: " << "x=" << x << " y=" << y << std::endl;
 	//Swap(&x, &y);
-	//std::cout << "x=" << x << " y=" << y << std::endl;
+	//std::cout << "After Swap: " << "x=" << x << " y=" << y << std::endl;
 
 	//ArrayAccessByPointer();
 
-	//int arr[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	// int arr[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	// InitializeArray2(arr, 10);
 	//InitializeArray(arr, 10);
+
+	//char letters[8] = { 's', 'd', 'a', 'e', 't', 'y', 'g', 'i'};
+	//int c = Func2(letters, 8);
+	//std::cout << "c = " << c;
 
 	//int* newPtr = &arr[0];
 	//InitializeArray(newPtr, 10);
@@ -65,5 +71,3 @@ int main()
 
 	return 0;
 }
-
-

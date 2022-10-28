@@ -96,6 +96,7 @@
     <ClCompile Include="Fraction.cpp">
       <Filter>Source Files\ClassesAndObjects</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="3DPoint.cpp">
       <Filter>Source Files\ClassesAndObjects</Filter>
     </ClCompile>
@@ -106,6 +107,9 @@
       <Filter>Source Files\ClassesAndObjects</Filter>
     </ClCompile>
     <ClCompile Include="Node.cpp">
+=======
+    <ClCompile Include="Program.cpp">
+>>>>>>> fa26f91933ceec611a0add966d0878d14e842fa4
       <Filter>Source Files\ClassesAndObjects</Filter>
     </ClCompile>
   </ItemGroup>
@@ -116,6 +120,7 @@
     <ClInclude Include="Quizes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="3DPoin.h">
       <Filter>Source Files\ClassesAndObjects</Filter>
     </ClInclude>
@@ -131,5 +136,13 @@
     <ClInclude Include="Node.h">
       <Filter>Source Files\ClassesAndObjects</Filter>
     </ClInclude>
+=======
+    <ClInclude Include="Student.h">
+      <Filter>Source Files\ClassesAndObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+>>>>>>> fa26f91933ceec611a0add966d0878d14e842fa4
   </ItemGroup>
 </Project>

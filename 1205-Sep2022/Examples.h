@@ -9,6 +9,9 @@ bool IsEven(int num);
 void TestGetArraySize();
 void ArrayAccessByPointer();
 void InitializeArray(int* p, int n);
+void InitializeArray2(int* p, int n);
+bool Check(char* cp);
+int Func2(char* cp, int size);
 
 void TestCString();
 void TestStrtok();
