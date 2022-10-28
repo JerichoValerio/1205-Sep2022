@@ -2,7 +2,6 @@
 
 void BasicSwitchCase()
 {
-
 	int n = 3;
 
 	if (n == 1)
