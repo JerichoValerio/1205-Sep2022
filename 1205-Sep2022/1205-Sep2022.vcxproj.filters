@@ -1,148 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="Libraries">
-      <UniqueIdentifier>{1a54c7ce-a691-47b5-9f15-bdf61ce86b14}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Quizes">
-      <UniqueIdentifier>{c733ad7b-7540-4183-a4a9-430436777104}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\UDTypesAndCasting">
-      <UniqueIdentifier>{d89dbc7c-24da-4d56-83a2-5f24e819c7ef}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\FundamentalTypes">
-      <UniqueIdentifier>{e07e67e4-ae09-48d8-9949-a95c359cc7fd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\LanguageBasics">
-      <UniqueIdentifier>{c64790e7-6b32-441c-9b8a-6e0b2245a13a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="MyProjectA">
-      <UniqueIdentifier>{b12e78e1-e6c4-4613-9c8d-61d8fe42b05f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\filestream">
-      <UniqueIdentifier>{15befe77-56c0-4b21-aca7-5aa61ce483a1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\ClassesAndObjects">
-      <UniqueIdentifier>{add66fce-6743-4443-a487-fb5314de52a6}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="3DPoint.cpp" />
+    <ClCompile Include="BitwiseOperators.cpp" />
+    <ClCompile Include="ExamineObjects.cpp" />
+    <ClCompile Include="ExploreCasting.cpp" />
+    <ClCompile Include="ExploreEnum.cpp" />
+    <ClCompile Include="Fraction.cpp" />
+    <ClCompile Include="Fraction.h" />
+    <ClCompile Include="main-Sep2022.cpp" />
+    <ClCompile Include="ArrayExample.cpp" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="MyProjectA\filestreamex1.cpp" />
+    <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="PhoneNumber.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Point.h" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Quiz1.cpp" />
+    <ClCompile Include="Quiz4.cpp" />
+    <ClCompile Include="RandomNumbers.cpp" />
+    <ClCompile Include="SwitchCase.cpp" />
+    <ClCompile Include="Week1Intro.cpp" />
+    <ClCompile Include="StringExamples.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main-Sep2022.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Quiz1.cpp">
-      <Filter>Source Files\Quizes</Filter>
-    </ClCompile>
-    <ClCompile Include="ArrayExample.cpp">
-      <Filter>Source Files\FundamentalTypes</Filter>
-    </ClCompile>
-    <ClCompile Include="SwitchCase.cpp">
-      <Filter>Source Files\FundamentalTypes</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointers.cpp">
-      <Filter>Source Files\FundamentalTypes</Filter>
-    </ClCompile>
-    <ClCompile Include="Week1Intro.cpp">
-      <Filter>Source Files\LanguageBasics</Filter>
-    </ClCompile>
-    <ClCompile Include="Quiz4.cpp">
-      <Filter>Source Files\Quizes</Filter>
-    </ClCompile>
-    <ClCompile Include="StringExamples.cpp">
-      <Filter>Source Files\UDTypesAndCasting</Filter>
-    </ClCompile>
-    <ClCompile Include="ExploreEnum.cpp">
-      <Filter>Source Files\UDTypesAndCasting</Filter>
-    </ClCompile>
-    <ClCompile Include="ExploreCasting.cpp">
-      <Filter>Source Files\UDTypesAndCasting</Filter>
-    </ClCompile>
-    <ClCompile Include="RandomNumbers.cpp">
-      <Filter>Source Files\UDTypesAndCasting</Filter>
-    </ClCompile>
-    <ClCompile Include="BitwiseOperators.cpp">
-      <Filter>Source Files\LanguageBasics</Filter>
-    </ClCompile>
-    <ClCompile Include="MyProjectA\filestreamex1.cpp">
-      <Filter>Source Files\filestream</Filter>
-    </ClCompile>
-    <ClCompile Include="Point.h">
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClCompile>
-    <ClCompile Include="Point.cpp">
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClCompile>
-    <ClCompile Include="ExamineObjects.cpp">
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClCompile>
-    <ClCompile Include="Fraction.h">
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClCompile>
-    <ClCompile Include="Fraction.cpp">
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="3DPoint.cpp">
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClCompile>
-    <ClCompile Include="Employee.cpp">
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClCompile>
-    <ClCompile Include="PhoneNumber.cpp">
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClCompile>
-    <ClCompile Include="Node.cpp">
-=======
-    <ClCompile Include="Program.cpp">
->>>>>>> fa26f91933ceec611a0add966d0878d14e842fa4
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Examples.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Quizes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="3DPoin.h">
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClInclude>
-    <ClInclude Include="Employee.h">
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClInclude>
-    <ClInclude Include="Address.h">
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClInclude>
-    <ClInclude Include="PhoneNumber.h">
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClInclude>
-    <ClInclude Include="Node.h">
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClInclude>
-=======
-    <ClInclude Include="Student.h">
-      <Filter>Source Files\ClassesAndObjects</Filter>
-    </ClInclude>
+    <ClInclude Include="3DPoin.h" />
+    <ClInclude Include="Address.h" />
+    <ClInclude Include="Examples.h" />
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="PhoneNumber.h" />
+    <ClInclude Include="Quizes.h" />
+    <ClInclude Include="Student.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
->>>>>>> fa26f91933ceec611a0add966d0878d14e842fa4
   </ItemGroup>
 </Project>

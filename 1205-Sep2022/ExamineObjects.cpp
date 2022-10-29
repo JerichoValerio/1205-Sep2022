@@ -6,6 +6,17 @@
 #include "Node.h"
 using namespace std;
 
+
+void PrintList(list<int> numbers)
+{
+
+}
+
+void PrintNodeList(Node* node)
+{
+
+}
+
 void TestPointObject()
 {
 	PhoneNumber pn(10000, 000);
@@ -74,6 +85,8 @@ void TestSTLObjects()
 	{
 		cout << "n: " << n << endl;
 	}
+
+	PrintList(numbers);
 }
 
 void TestNode()

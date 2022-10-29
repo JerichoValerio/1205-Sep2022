@@ -160,7 +160,6 @@
     <ClCompile Include="PhoneNumber.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="Point.h" />
-    <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="Program.cpp" />
     <ClCompile Include="Quiz1.cpp" />
     <ClCompile Include="Quiz4.cpp" />
