@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 void BasicPointers()
 {
@@ -50,6 +51,23 @@ void ArrayAccessByPointer()
 	std::cout << "value at pi+0 a.k.s. arr[0] = " << *pi << std::endl;
 	// arr[1]
 	std::cout << "value at pi+1 a.k.s. arr[1] = " << *(pi + 1) << std::endl;
+
+	// another example 
+	auto p = new int[3];
+	for (int i = 0; i < 3; i++)
+	{
+		p[i] = 0;
+	}
+
+	int* pInt = &p[0];
+	*p++ = 78;
+	cout << "value at p after:" << *p << endl;
+
+	cout << "value at *p--:" << *p-- << endl;
+	*p++;
+	cout << "value at *--p:" << *--p << endl;
+	cout << "value at *p++ :" << *p++ << endl;
+
 }
 
 // A function that uses a pointer to initialize an array of size n
