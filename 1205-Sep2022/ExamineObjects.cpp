@@ -98,6 +98,3 @@ void TestNode()
 	
 	Node n3(7, &n2);
 }
-
-
-
