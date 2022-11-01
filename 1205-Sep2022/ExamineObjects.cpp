@@ -4,6 +4,9 @@
 #include "3DPoin.h"
 #include "PhoneNumber.h"
 #include "Node.h"
+#include "Fraction.h"
+#include "Employee.h"
+
 using namespace std;
 
 
@@ -87,6 +90,20 @@ void TestSTLObjects()
 	}
 
 	PrintList(numbers);
+
+	// list of string items
+	list<string> names = {"123", "456", "789"};
+
+	list<Fraction> * fractions = new list<Fraction>();
+	Fraction f1(6, 7);
+	fractions->push_back(*(new Fraction()));
+	fractions->push_back(*(new Fraction(3, 5)));
+	fractions->push_back(*(new Fraction(1, 3)));
+	fractions->push_back(f1);
+
+	// this works because compiler creates the default constructor
+	Employee e1;
+	Employee e2(120, "Tom", "Brady");
 }
 
 void TestNode()
@@ -98,6 +115,3 @@ void TestNode()
 	
 	Node n3(7, &n2);
 }
-
-
-

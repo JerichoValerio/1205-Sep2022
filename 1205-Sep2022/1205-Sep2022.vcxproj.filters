@@ -24,6 +24,7 @@
     <ClCompile Include="SwitchCase.cpp" />
     <ClCompile Include="Week1Intro.cpp" />
     <ClCompile Include="StringExamples.cpp" />
+    <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="3DPoin.h" />
@@ -34,6 +35,7 @@
     <ClInclude Include="PhoneNumber.h" />
     <ClInclude Include="Quizes.h" />
     <ClInclude Include="Student.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
