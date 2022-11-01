@@ -6,6 +6,8 @@
 #include "Node.h"
 #include "Fraction.h"
 #include "Employee.h"
+#include "Player.h"
+#include "GameManager.h"
 
 using namespace std;
 
@@ -113,4 +115,17 @@ void TestNode()
 	// n2.SetNext(&n1);
 	
 	Node n3(7, &n2);
+}
+
+void TestGame()
+{
+	Player p1 = GameManagement::GetPlayerInformation();
+
+	GameManagement::WelcomePlayer(p1.GetName());
+
+	bool isPlaying = true;
+	while (isPlaying)
+	{
+		isPlaying = GameManagement::RunGame();
+	}
 }

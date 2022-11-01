@@ -32,3 +32,5 @@ void TestPointObject();
 void TestSTLObjects();
 void TestNode();
 void PrintList(list<int> numbers);
+
+void TestGame();

@@ -25,6 +25,7 @@
     <ClCompile Include="Week1Intro.cpp" />
     <ClCompile Include="StringExamples.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="GameManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="3DPoin.h" />
@@ -36,6 +37,8 @@
     <ClInclude Include="Quizes.h" />
     <ClInclude Include="Student.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="PlayerOptions.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

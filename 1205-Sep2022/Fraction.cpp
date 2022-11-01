@@ -2,14 +2,20 @@
 
 Fraction::Fraction()
 {
+	num = 0;
+	den = 0;
 }
 
 Fraction::Fraction(int n)
 {
+	num = n;
+	den = 0;
 }
 
 Fraction::Fraction(int n, int d)
 {
+	num = n;
+	den = d;
 }
 
 int Fraction::GetDen()

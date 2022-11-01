@@ -2,6 +2,7 @@
 
 Employee::Employee()
 {
+	ID = 0;
 	HomeAddress = nullptr;
 	ContactAddress = nullptr;
 	HomeNumber = nullptr;

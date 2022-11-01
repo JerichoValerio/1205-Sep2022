@@ -16,7 +16,9 @@ void TestQuiz4()
 
 int main()
 {
-	TestNode();
+	TestGame();
+	
+	// TestNode();
 
 	// TestSTLObjects();
 	// TestPointObject();
