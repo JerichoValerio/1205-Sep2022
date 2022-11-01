@@ -60,10 +60,13 @@ void TestPointObject()
 
 	int *intArr = new int[10];
 	Point* pointArr = new Point[50];
-
+	Point pArr[50];
+	int x = 1;
 	for (int i = 0; i < 50; ++i)
 	{
 		pointArr[i].Set(0, 0);
+		pArr[i].Set(x, i);
+		x *= 2;
 	}
 
 	// delete keyword is used to free up allocated memory
