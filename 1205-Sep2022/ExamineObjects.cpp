@@ -120,6 +120,19 @@ void TestNode()
 	Node n3(7, &n2);
 }
 
+void TestScope()
+{
+	Player player1;
+	player1.SetName("Jimmy", "Brady");
+
+	GameManagement::WelcomePlayer(player1.GetName());
+
+	Player player2;
+	player2 = player1;
+
+	return;
+}
+
 void TestGame()
 {
 	Player p1 = GameManagement::GetPlayerInformation();

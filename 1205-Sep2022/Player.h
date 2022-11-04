@@ -10,8 +10,12 @@ private:
 	string m_name;
 
 public:
+	Player();
+	~Player();
 	Player(const string& username, const string& name);
 	const string& GetName();
 	const string& GetUsername();
 	void SetName(const string& name);
+	void SetName(const string& name, const string& lastName);
+	const Player& operator=(const Player& player);
 };

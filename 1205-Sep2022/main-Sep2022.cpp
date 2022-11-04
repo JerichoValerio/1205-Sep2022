@@ -16,7 +16,7 @@ void TestQuiz4()
 
 int main()
 {
-	// TestGame();
+	TestGame();
 	
 	// TestNode();
 
