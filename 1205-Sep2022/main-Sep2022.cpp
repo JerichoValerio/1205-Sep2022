@@ -16,7 +16,8 @@ void TestQuiz4()
 
 int main()
 {
-	TestGame();
+	// TestScope();
+	StartGameLoop();
 	
 	// TestNode();
 

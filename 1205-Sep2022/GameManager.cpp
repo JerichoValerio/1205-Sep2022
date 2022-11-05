@@ -15,8 +15,12 @@ bool GameManagement::RunGame()
 	GameManagement::GetPlayerInput(playerInput);
 
 	bool shouldRunGame = EvaluatePlayerInput(playerInput) != PlayerOptions::Quit;
+	// Check to see if the player wants to end it - hint: return
+
+	// Run your game here
 
 
+	// when the game ends
 	return shouldRunGame;
 }
 

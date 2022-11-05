@@ -47,6 +47,7 @@ void Player::SetName(const string& name, const string& lastName)
 	this->m_name.append(lastName);
 }
 
+// Assignment Operator for our Player class
 const Player& Player::operator=(const Player& player)
 {
 	this->m_name = player.m_name;

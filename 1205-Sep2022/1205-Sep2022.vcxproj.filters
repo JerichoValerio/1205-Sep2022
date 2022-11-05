@@ -39,6 +39,7 @@
     <ClInclude Include="Player.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="PlayerOptions.h" />
+    <ClInclude Include="Game.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

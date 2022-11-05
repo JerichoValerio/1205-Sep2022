@@ -127,13 +127,14 @@ void TestScope()
 
 	GameManagement::WelcomePlayer(player1.GetName());
 
+	Player player3;
 	Player player2;
-	player2 = player1;
+	player3 = player2 = player1;
 
 	return;
 }
 
-void TestGame()
+void StartGameLoop()
 {
 	Player p1 = GameManagement::GetPlayerInformation();
 

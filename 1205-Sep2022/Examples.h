@@ -33,4 +33,5 @@ void TestSTLObjects();
 void TestNode();
 void PrintList(list<int> numbers);
 
-void TestGame();
+void StartGameLoop();
+void TestScope();
