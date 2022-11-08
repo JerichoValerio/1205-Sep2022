@@ -167,9 +167,17 @@ void PrintNumberOfWheels()
 	Vehicle* pVehicle = &vehicle;
 	cout << "ptr to vehicle: " << pVehicle->GetNumberOfWheels() << endl;
 
+	// we do not need to convert the pointer to a Motorcycle*
+	pVehicle = &motorcycle;
+	cout << "ptr to motorcycle: " << pVehicle->GetNumberOfWheels() << endl;
+
+	// we do not need to convert the pointer to a Car*
 	pVehicle = &car;
 	cout << "ptr to car: " << pVehicle->GetNumberOfWheels() << endl;
 
-	pVehicle = &motorcycle;
-	cout << "ptr to motorcycle: " << pVehicle->GetNumberOfWheels() << endl;
+	Car* pCar = dynamic_cast<Car*>(pVehicle);
+	if (pCar != nullptr)
+	{
+		cout << "pCar: " << pCar->GetNumberOfWheels() << endl;
+	}
 }
