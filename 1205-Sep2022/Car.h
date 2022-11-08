@@ -7,5 +7,6 @@ public:
 	Car();
 	~Car();
 
+	// a virtual method which can be overriden in derived classes
 	virtual unsigned int GetNumberOfWheels();
 };

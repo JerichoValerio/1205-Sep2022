@@ -153,7 +153,7 @@ void StartGameLoop()
 void PrintNumberOfWheels()
 {
 
-	Vehicle  vehicle;
+	Vehicle vehicle;
 	Car car;
 	Motorcycle motorcycle;
 

@@ -30,4 +30,6 @@ public:
 	
 	// Assignment Operator for our Player class
 	const Player& operator=(const Player& player);
+
+	virtual void Update();
 };

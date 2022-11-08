@@ -55,3 +55,7 @@ const Player& Player::operator=(const Player& player)
 
 	return *this;
 }
+
+void Player::Update()
+{
+}

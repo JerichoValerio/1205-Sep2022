@@ -13,5 +13,7 @@ protected:
 public:
 	Vehicle();
 	~Vehicle();
+	
+	// a virtual method which can be overriden in derived classes
 	virtual unsigned int GetNumberOfWheels();
 };
