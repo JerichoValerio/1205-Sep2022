@@ -28,6 +28,7 @@
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Motorcycle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="3DPoin.h" />
@@ -44,6 +45,8 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="Vehicle.h" />
     <ClInclude Include="Car.h" />
+    <ClInclude Include="EngineType.h" />
+    <ClInclude Include="Motorcycle.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

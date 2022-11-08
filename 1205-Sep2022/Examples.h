@@ -35,3 +35,5 @@ void PrintList(list<int> numbers);
 
 void StartGameLoop();
 void TestScope();
+
+void PrintNumberOfWheels();

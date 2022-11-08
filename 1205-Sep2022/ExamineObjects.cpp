@@ -8,6 +8,9 @@
 #include "Employee.h"
 #include "Player.h"
 #include "GameManager.h"
+#include "Motorcycle.h"
+#include "Car.h"
+
 
 using namespace std;
 
@@ -145,4 +148,15 @@ void StartGameLoop()
 	{
 		isPlaying = GameManagement::RunGame();
 	}
+}
+
+void PrintNumberOfWheels()
+{
+	Vehicle  vehicle;
+	Car car;
+	Motorcycle motorcycle;
+
+	cout << "vehicle: " << vehicle.GetNumberOfWheels() << endl;
+	cout << "car: " << car.GetNumberOfWheels() << endl;
+	cout << "motorcycle: " << motorcycle.GetNumberOfWheels() << endl;
 }
