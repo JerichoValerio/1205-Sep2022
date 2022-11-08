@@ -146,6 +146,7 @@
   <ItemGroup>
     <ClCompile Include="3DPoint.cpp" />
     <ClCompile Include="BitwiseOperators.cpp" />
+    <ClCompile Include="Car.cpp" />
     <ClCompile Include="ExamineObjects.cpp" />
     <ClCompile Include="ExploreCasting.cpp" />
     <ClCompile Include="ExploreEnum.cpp" />
@@ -167,12 +168,14 @@
     <ClCompile Include="Quiz4.cpp" />
     <ClCompile Include="RandomNumbers.cpp" />
     <ClCompile Include="SwitchCase.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="Week1Intro.cpp" />
     <ClCompile Include="StringExamples.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="3DPoin.h" />
     <ClInclude Include="Address.h" />
+    <ClInclude Include="Car.h" />
     <ClInclude Include="Examples.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="Game.h" />
@@ -183,6 +186,7 @@
     <ClInclude Include="PlayerOptions.h" />
     <ClInclude Include="Quizes.h" />
     <ClInclude Include="Student.h" />
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
