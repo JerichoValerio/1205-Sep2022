@@ -180,4 +180,17 @@ void PrintNumberOfWheels()
 	{
 		cout << "pCar: " << pCar->GetNumberOfWheels() << endl;
 	}
+	
+	Player player1;
+	Player player2;
+	Player player3;
+	
+	player1.SetId(1);
+	cout << "player1.id:" << player1.GetId() << endl;
+
+	player2.SetId(2);
+	cout << "player2.id:" << player2.GetId() << endl;
+
+	player3.SetId(3);
+	cout << "player3.id:" << player3.GetId() << endl;
 }
