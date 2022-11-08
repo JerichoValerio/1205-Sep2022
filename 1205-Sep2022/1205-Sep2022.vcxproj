@@ -147,6 +147,7 @@
     <ClCompile Include="3DPoint.cpp" />
     <ClCompile Include="BitwiseOperators.cpp" />
     <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Entity.cpp" />
     <ClCompile Include="ExamineObjects.cpp" />
     <ClCompile Include="ExploreCasting.cpp" />
     <ClCompile Include="ExploreEnum.cpp" />
@@ -178,6 +179,7 @@
     <ClInclude Include="Address.h" />
     <ClInclude Include="Car.h" />
     <ClInclude Include="EngineType.h" />
+    <ClInclude Include="Entity.h" />
     <ClInclude Include="Examples.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="Game.h" />

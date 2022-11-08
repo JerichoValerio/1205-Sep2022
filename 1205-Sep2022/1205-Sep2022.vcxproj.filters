@@ -29,6 +29,7 @@
     <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="Motorcycle.cpp" />
+    <ClCompile Include="Entity.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="3DPoin.h" />
@@ -47,6 +48,7 @@
     <ClInclude Include="Car.h" />
     <ClInclude Include="EngineType.h" />
     <ClInclude Include="Motorcycle.h" />
+    <ClInclude Include="Entity.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

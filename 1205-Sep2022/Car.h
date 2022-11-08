@@ -6,4 +6,6 @@ class Car : public Vehicle
 public:
 	Car();
 	~Car();
+
+	virtual unsigned int GetNumberOfWheels();
 };

@@ -13,6 +13,5 @@ protected:
 public:
 	Vehicle();
 	~Vehicle();
-	unsigned int GetNumberOfWheels();
-
+	virtual unsigned int GetNumberOfWheels();
 };

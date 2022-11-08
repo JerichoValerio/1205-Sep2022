@@ -11,3 +11,8 @@ Motorcycle::~Motorcycle()
 {
 	cout << "Motorcycle desstructor" << endl;
 }
+
+unsigned int Motorcycle::GetNumberOfWheels()
+{
+	return 2;
+}

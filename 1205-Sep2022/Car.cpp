@@ -10,3 +10,8 @@ Car::~Car()
 {
 	cout << "Car destructor" << endl;
 }
+
+unsigned int Car::GetNumberOfWheels()
+{
+	return 4;
+}

@@ -152,6 +152,7 @@ void StartGameLoop()
 
 void PrintNumberOfWheels()
 {
+
 	Vehicle  vehicle;
 	Car car;
 	Motorcycle motorcycle;
@@ -159,4 +160,16 @@ void PrintNumberOfWheels()
 	cout << "vehicle: " << vehicle.GetNumberOfWheels() << endl;
 	cout << "car: " << car.GetNumberOfWheels() << endl;
 	cout << "motorcycle: " << motorcycle.GetNumberOfWheels() << endl;
+
+	// Testing the polymorphic behavior of C++ OOP
+	// through the virtual GetNumberOfWheels method
+	// which has been overriden in the derived classes, Car and Motorcycle.
+	Vehicle* pVehicle = &vehicle;
+	cout << "ptr to vehicle: " << pVehicle->GetNumberOfWheels() << endl;
+
+	pVehicle = &car;
+	cout << "ptr to car: " << pVehicle->GetNumberOfWheels() << endl;
+
+	pVehicle = &motorcycle;
+	cout << "ptr to motorcycle: " << pVehicle->GetNumberOfWheels() << endl;
 }
